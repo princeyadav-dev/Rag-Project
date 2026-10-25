@@ -1,0 +1,16 @@
+[project]
+name = "pdf-rag-chatbot"
+version = "0.1.0"
+description = "Streamlit based RAG chatbot for PDFs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.40",
+    "pypdf>=5.0",
+    "scikit-learn>=1.5",
+    "anthropic>=0.40",
+    "python-dotenv>=1.0",
+    "groq>=1.7.0",
+    "openai>=3.37.0",
+    "google-genai>=2.33.0",
+]
